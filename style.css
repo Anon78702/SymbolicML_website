@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
   color: #1a1a2e;
   background: #f9f9fb;
   line-height: 1.6;
@@ -31,9 +31,10 @@ nav {
 
 .logo {
   color: #fff;
-  font-size: 1.25rem;
+  font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', monospace;
+  font-size: 1.3rem;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.04em;
 }
 
 nav ul {
@@ -67,9 +68,11 @@ nav a:hover {
 }
 
 #about h1 {
-  font-size: 2.8rem;
+  font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', monospace;
+  font-size: 3rem;
   font-weight: 800;
-  margin-bottom: 0.5rem;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.75rem;
 }
 
 #about .tagline {
@@ -81,7 +84,7 @@ nav a:hover {
 #about .description {
   font-size: 1.05rem;
   color: #c8cce0;
-  max-width: 600px;
+  max-width: 680px;
   margin: 0 auto;
 }
 
